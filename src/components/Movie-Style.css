@@ -19,13 +19,8 @@
     width: 100%;
     margin-right: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    opacity: 0.85;
     transition: ease-in-out 0.2s;
   }
-  .movie img:hover{
-      opacity: 100%;
-  }
-  
   .movie .movie-title,
   .movie .movie-year{
     margin: 0;
@@ -54,6 +49,7 @@
   }
   .movie-link{
     text-decoration-line: none;
+    color: black;
   }
   
   
