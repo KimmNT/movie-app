@@ -52,5 +52,8 @@
     margin-right: 5px;
     font-size: 10px;
   }
+  .movie-link{
+    text-decoration-line: none;
+  }
   
   
