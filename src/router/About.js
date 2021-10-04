@@ -5,7 +5,7 @@ function About(props) {
     console.log(props);
     return (
         <div className="about">
-            <h3>Hola! Welcome to my page. Hope you're have a great time!</h3>
+            <h3>Hola! Welcome to my page. Hope you have a great time!</h3>
             <p>KNT</p>
         </div>
     );
