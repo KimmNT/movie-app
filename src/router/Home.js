@@ -24,7 +24,7 @@ class Home extends React.Component {
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader-text">Wait for the respondes...</span>
+            <span className="loader-text">Wait for the respones...</span>
           </div>
         ) : (
           <div className="movies">

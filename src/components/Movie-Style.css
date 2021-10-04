@@ -1,55 +1,58 @@
-
 .movie {
-    width: 45%;
-    background-color: white;
-    margin-bottom: 70px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    
-  }
-  
-  .movie img{
-    position: relative;
-    top:-50px;
-    max-width: 150px; 
-    width: 100%;
-    margin-right: 30px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    transition: ease-in-out 0.2s;
-  }
-  .movie .movie-title,
-  .movie .movie-year{
-    margin: 0;
-    font-weight: 300;
-    color: #b2b3bc;
-  }
-  .movie .movie-title{
-    padding-bottom: 5px;
-    font-size: 24px;
-  }
-  .movie .movie-year,
-  .movie .movie-genres{
-    color: #b2b3bc;
-  }
-  .movie-summary{
-    font-size:  13px;
-  }
-  .movie-genres{
-    list-style: none;
-    margin: 0;
-    padding:0;
-  }
-  .movie-genres li{
-    margin-right: 5px;
-    font-size: 10px;
-  }
-  .movie-link{
-    text-decoration-line: none;
-    color: black;
-  }
-  
-  
+  background-color: white;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.movie img {
+  position: relative;
+  top: -50px;
+  max-width: 150px;
+  width: 100%;
+  margin-right: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: ease-in-out 0.2s;
+  opacity: 0.9;
+}
+.movie img:hover{
+  opacity: 1;
+  transform: translateY(-10px);
+}
+.movie .movie-title,
+.movie .movie-year {
+  margin: 0;
+  font-weight: 300;
+  color: #b2b3bc;
+}
+.movie .movie-title {
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+.movie .movie-year,
+.movie .movie-genres {
+  color: #b2b3bc;
+}
+.movie-summary {
+  font-size: 13px;
+}
+.movie-genres {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.movie-genres li {
+  margin-right: 5px;
+  font-size: 10px;
+}
+.movie-link {
+  text-decoration-line: none;
+  color: black;
+  width: 35%;
+}

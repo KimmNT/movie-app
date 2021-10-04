@@ -1,0 +1,25 @@
+.movie-detail {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-detail-inf{
+    padding: 50px;
+}
+.movie-detail-inf li{
+    padding-bottom: 20px;
+    font-size: 25px;
+    list-style: none;
+}
+.movie-detail-name,
+.movie-detail-year,
+.movie-detail-desc,
+.movie-detail-genres {
+    font-weight: 300;
+}
+.movie-detail-desc{
+    width: 70%;
+}
+
+
